@@ -1,0 +1,28 @@
+h4{
+
+    color: turquoise;
+    text-shadow: 0 0 0.3em maroon;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h4:hover{
+    cursor: default;
+}
+
+
+@media screen  and (max-width:960px){
+    .footer-container{
+        max-width: 600px;
+    }
+}
+
+.ikon i{
+    width: 20px;
+    color: turquoise;
+}
+
+.ikon i:hover{
+    transform: scale(1.5);
+    color: white;
+    text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+}
